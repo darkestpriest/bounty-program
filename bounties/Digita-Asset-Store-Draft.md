@@ -52,6 +52,9 @@ Wallet module for Digital Asset Store Wallet.
 ### New Middleware: Digital Asset Store Middleware
 This plug in must be in charge of collecting all available assets for sale and provide methods to display 
 information in order, or by filters requested by the buyer.
+
+### New Middleware: Digital Asset Publisher Middleware
+This plug in must be in charge to hold the digital asset and update the user identity to set the assets available to sell.
 ​
 ### New Transaction: Asset User Hold.
 This plug in should be in the capacity to “Book” a digital asset that is available in the asset user wallet to be used in the digital asset store for sale and prevent it's distribution or transfer.
